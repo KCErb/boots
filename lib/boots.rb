@@ -1,6 +1,5 @@
 require_relative 'col'
 require_relative 'row'
-require_relative 'grid'
 require_relative 'nav'
 
 module Boots
