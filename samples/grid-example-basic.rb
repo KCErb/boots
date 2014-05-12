@@ -1,14 +1,17 @@
-require_relative 'boots.rb'
+#see http://getbootstrap.com/css/#grid-example-basic
+
+require_relative 'boots'
+
 Shoes.app width: 1200 do
 
-  style(Shoes::Para, size: 16)
+  style(Shoes::Para, size: 14, margin_left: 15, margin_right: 15, margin_top: 10, margin_bottom: 10)
 
   row do
     12.times do
       col md: 1 do
         background rgb(223, 217, 229)
         border rgb(187, 176, 202)
-        para "col-md-1"
+        para ".col-md-1"
       end
     end
   end
@@ -46,3 +49,4 @@ Shoes.app width: 1200 do
     end
   end
 end
+
