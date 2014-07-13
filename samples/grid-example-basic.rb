@@ -1,6 +1,6 @@
 #see http://getbootstrap.com/css/#grid-example-basic
 
-require_relative 'boots'
+require_relative '../lib/boots'
 
 Shoes.app width: 1200 do
 

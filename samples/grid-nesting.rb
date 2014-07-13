@@ -4,7 +4,7 @@
 # I'd rather be able to give a column a name and set the style
 # for items of the same name . . .
 
-require_relative 'boots'
+require_relative '../lib/boots'
 
 Shoes.app width: 1200 do
   extend Boots

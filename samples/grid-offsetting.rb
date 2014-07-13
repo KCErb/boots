@@ -1,7 +1,7 @@
 #see http://getbootstrap.com/css/#grid-offsetting
 # Broken due to background resizing in Shoes
 
-require_relative 'boots'
+require_relative '../lib/boots'
 
 Shoes.app width: 1200 do
   extend Boots
