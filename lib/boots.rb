@@ -1,3 +1,5 @@
+require 'shoes'
+
 require_relative 'col'
 require_relative 'row'
 #require_relative 'nav'
